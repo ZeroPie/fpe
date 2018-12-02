@@ -7,8 +7,9 @@ const gitgud = suffix('gitgud')
 const memeify = x => bye(kthx(gitgud(pls(x))))
 console.log('memeify:', memeify('Teemo') );
 
-/* Using Ramda // REPL: https://ramdajs.com/repl/
 
+// Using Ramda (REPL://ramdajs.com/repl)
+/* 
 let composedMeme = R.compose(bye, kthx, gitgud, pls)
 console.log('composedMeme:', composedMeme('Rora'));
 
